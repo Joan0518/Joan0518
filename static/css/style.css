@@ -242,7 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../static/img/background.png") top right no-repeat;
+  background: <img src="../static/img/background.png"> top right no-repeat;
+  /* background: url("static/img/background.png") top right no-repeat; */
   background-size: cover;
   position: relative;
 }
